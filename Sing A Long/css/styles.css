@@ -1,0 +1,148 @@
+img.background {
+  height: 100vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 2vh; }
+
+img.hiddenBoard {
+  display: block;
+  position: absolute; }
+
+.hiddenBoard:hover {
+  cursor: grab; }
+
+.hiddenBoard:active {
+  cursor: grabbing; }
+
+.hid1 {
+  max-height: 8vh;
+  top: 91vh;
+  left: 91vh; }
+
+.hid2 {
+  max-height: 11vh;
+  top: 11.7vh;
+  left: 5.7vh; }
+
+.hid3 {
+  max-height: 21vh;
+  top: 40.5vh;
+  left: 89.7vh; }
+
+.hid4 {
+  max-height: 11vh;
+  top: 89.7vh;
+  left: 34vh; }
+
+.hid5 {
+  max-height: 6.5vh;
+  top: 78.5vh;
+  left: 37.5vh; }
+
+.hid6 {
+  max-height: 6vh;
+  top: 69vh;
+  left: 115.5vh; }
+
+img.boards {
+  display: block;
+  max-height: 8vh; }
+
+#board6 {
+  margin-left: 27vh;
+  position: absolute;
+  top: 30.5vh; }
+
+#board5 {
+  margin-left: 26vh;
+  position: absolute;
+  top: 36vh; }
+
+#board4 {
+  margin-left: 25vh;
+  position: absolute;
+  top: 42vh; }
+
+#board3 {
+  margin-left: 24vh;
+  position: absolute;
+  top: 49vh; }
+
+#board2 {
+  margin-left: 23vh;
+  position: absolute;
+  top: 55vh; }
+
+#board1 {
+  margin-left: 22vh;
+  position: absolute;
+  top: 63vh; }
+
+img.benjamin {
+  display: block;
+  height: 25vh;
+  position: absolute; }
+
+#benjamin1 {
+  left: 6vh;
+  top: 51vh; }
+
+#benjamin2 {
+  top: 7vh;
+  left: 30vh; }
+
+img.hid {
+  display: none; }
+
+video {
+  width: 80vh;
+  height: auto;
+  position: absolute;
+  top: 10vh;
+  left: 10vh; }
+
+video.hide {
+  display: none; }
+
+hr {
+  width: 125vh;
+  margin-left: 2vh; }
+
+footer {
+  margin: 2vh 0 2vh 15vh;
+  font-size: 2.5vh; }
+
+.art {
+  font-style: italic; }
+
+a {
+  color: blue;
+  text-decoration: none; }
+
+/*end of media query */
+@media only screen and (min-width: 1028px) {
+  #song1 {
+    position: absolute;
+    top: 15px;
+    left: 68px;
+    width: 170px;
+    height: 225px;
+    font-size: 0;
+    border: none;
+    background: transparent; }
+  #song1:hover {
+    background: rgba(250, 250, 150, 0.8);
+    cursor: grab; }
+  #song1:active {
+    cursor: grabbing; }
+  .j:hover {
+    box-shadow: 0 0 10px gray;
+    cursor: grab; }
+  .j:active {
+    cursor: grabbing; }
+  video {
+    position: absolute;
+    top: 50px;
+    left: 10px; } }
+
+/*end of media query */
