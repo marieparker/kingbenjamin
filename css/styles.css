@@ -98,8 +98,8 @@ video {
   width: 120vh;
   height: auto;
   position: absolute;
-  top: 10vh;
-  left: 10vh; }
+  top: 5vh;
+  left: 5vh; }
 
 video.hide {
   display: none; }
