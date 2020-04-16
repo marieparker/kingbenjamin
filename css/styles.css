@@ -104,12 +104,52 @@ video {
 video.hide {
   display: none; }
 
+audio {
+  z-index: -1;
+  position: absolute;
+  top: 1vh;
+  left: 1vh; }
+
+button {
+  position: absolute;
+  top: 45vh;
+  left: 55vh;
+  padding: 1rem;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  font-family: 'Tahoma', sans-serif;
+  border: none; }
+
+button:hover {
+  cursor: grab;
+  background-color: #0bcc0b; }
+
+button:active {
+  cursor: grabbing;
+  background-color: #0bcc0b; }
+
+button.restart {
+  display: none; }
+
+button#skip {
+  z-index: 9;
+  position: absolute;
+  top: 6vh;
+  left: 117vh;
+  background-color: transparent;
+  color: black;
+  padding: 1em; }
+
+button.exit {
+  display: none; }
+
 hr {
   width: 125vh;
   margin-left: 2vh; }
 
 footer {
-  margin: 2vh 0 2vh 15vh;
+  margin: 2vh 0 2vh 10vh;
   font-size: 2.5vh; }
 
 .art {
