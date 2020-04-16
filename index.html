@@ -38,18 +38,42 @@
     <img class="benjamin" id="benjamin1" src="images/benjamin1.png" alt="Benjamin on the ground">
     <img class="benjamin hid" id="benjamin2" src="images/benjamin2.png" alt="Benjamin on the tower">
     
-    
-    <video class="videos hide" id="10" onended="videoDone()" controls></video>
+    <video class="videos hide" id="vid1" onended="videoDone(this.id)" controls>
+        <source src="videos/vid1.mp4" type="video/mp4">
+    </video>
+    <video class="videos hide" id="vid2" onended="videoDone(this.id)" controls>
+        <source src="videos/vid2.mp4" type="video/mp4">
+    </video>
+    <video class="videos hide" id="vid3" onended="videoDone(this.id)" controls>
+        <source src="videos/vid3.mp4" type="video/mp4">
+    </video>
+    <video class="videos hide" id="vid4" onended="videoDone(this.id)" controls>
+        <source src="videos/vid4.mp4" type="video/mp4">
+    </video>
+    <video class="videos hide" id="vid5" onended="videoDone(this.id)" controls>
+        <source src="videos/vid5.mp4" type="video/mp4">
+    </video>
+    <video class="videos hide" id="vid6" onended="videoDone(this.id)" controls>
+        <source src="videos/vid6.mp4" type="video/mp4">
+    </video>
 
-    <audio>
-        <source src="">
+    <video class="videos" id="intro" onended="Intro()" controls>
+        <source src="videos/intro.mp4" type="video/mp4">
+    </video>
+
+    <audio class="show" id="kbm" onended="showButton()" controls>
+        <source src="audio/KBmessage.mp3" type="audio/mpeg">Your browser does not support this file.
     </audio>
+    <button class="restart" id="again" onclick="playAgain()" >&#x25B6; Play Again</button>
+    <span class="count" id="10"></span>
 </main>
 <hr>
 <footer>
-    <span class="art">Artwork by Amy Seiter</span>  |  <span>Sheet music for all songs can be found at <a href="https://www.churchofjesuschrist.org/music/library/childrens-songbook?lang=eng" >ChurchofJesusChrist.org</a></span>
+    <span class="art">Artwork by Amy Seiter</span>  |  <span>Sheet music for all songs can be found at <a href="https://www.churchofjesuschrist.org/music/library/childrens-songbook?lang=eng" >ChurchofJesusChrist.org</a></span>  
+    |  <span><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/2?lang=eng">Mosiah 2:41</a></span>
 </footer>
     <script src="js/videoToggle.js"></script>
+    <script src="js/restart.js"></script>
 </body>
 
 </html>
